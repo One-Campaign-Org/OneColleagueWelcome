@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Colleague Welcome Webpart",
+    "id": "4a9df85a-7681-4dbe-b5de-12231c261c55",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      }
+    ],
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Colleague welcome message"
+      },
+      "longDescription": {
+        "default": "Custom control that presents the current user's name with a welcome message"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "colleague-welcome Feature",
+        "description": "The feature that activates elements of the colleague-welcome solution.",
+        "id": "e59dd8d6-0cd8-4b73-ba39-bd252ec89b32",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/colleague-welcome.sppkg"
+  }
+}
